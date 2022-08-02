@@ -1,0 +1,46 @@
+ #container{
+    display: flex;
+    gap: 5px;
+ }
+ #container1{
+    flex: 1;
+    background-color: #EAF6F6;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+ }
+ #container1 button{
+    width: 80px;
+ }
+ #container2{
+    flex: 2;
+    background-color:#66BFBF;
+    padding: 10px;
+    
+ }
+ #taskNote{
+   width: 75%;
+ }
+ input{
+    padding: 5px;
+    border-radius: 5px; 
+ }
+ button{
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+ }
+ li{
+
+   margin-bottom: 10px;
+ }
+ ul{
+   text-decoration: none;
+   list-style-type: none;
+ }
+input[type = checkbox]:checked+label{
+   
+   text-decoration: line-through;
+   opacity: 0.6;
+}
